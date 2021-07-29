@@ -21,8 +21,25 @@
                 </ul>
             </nav>
             <hr>
-            <div id ="contenido">
-               <h2>Contacto:</h2>
+            <div id ="contenido_contacto">
+               <form id="contacto_form" action="https://www.kinal.org.gt/"> 
+                <h2>Contacto:</h2>              
+                <table>
+                    <tr><td id="td_text">Nombre:</td>
+                    <td><input type="text" placeholder="Por favor ingrese su nombre" required></td>
+                    </tr>
+                </table>
+                <table>
+                    <tr><td id="td_text">Email:</td>
+                        <td><input type="text" placeholder="Por favor ingrese su E-mail" required></td>
+                    </tr>
+                </table>    
+                <table>
+                    <tr><td id="td_text">Mensaje:</td>
+                        <td><input type="text" placeholder="Por favor ingrese su mensaje" required></td>
+                        <td><button id="enviar_boton" type="submit">Enviar</button></td>
+                    </tr>
+               </form>
             </div>
             <footer>
                 Todos los derechos reservados &copy; Kalum V1.0.0
