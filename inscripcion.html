@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sistema de controle academico Kalum</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+
+    </head>
+    <body>
+        <div>
+            <header>
+                <h1>Sistema de control academico Kalum V 1.0.0</h1>
+            </header>
+            <nav id="menu">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./carreras-tecnicas.html">Carreras tecnicas</a></li>
+                    <li><a href="./clases.html">Clases</a></li>
+                    <li><a href="./inscripcion.html">Inscripcion</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <div class="clearFix"></div>
+                </ul>
+            </nav>
+            <hr>
+            <div id ="contenido">
+                <h2>Ficha de Inscripcion</h2>
+                <form action="">
+                    <p>
+                        <label for="carne">Carne:</label>
+                        <div>
+                            <input type="text" name="carne">
+                            <button>Buscar</button>
+                        </div>
+                    </p>
+                    <p>
+                        <label for="clase">Clases:</label>
+                        <select name="clase">
+                            <option value="Seleccionar">Selecionar</option>
+                            <option value="BackEnd-Java">Back end Java</option>
+                            <option value="BackEnd-.net">BackEnd DotNet Core 3.1</option>
+                            <option value="FrontEnd-Angular">FrontEnd Angular</option>
+                            <option value="FrontEnd-React">FrontEnd React</option>
+                        </select>
+                    </p>
+                    <input type="submit" value="Registrar">
+                </form>
+            </div>
+            <footer>
+                Todos los derechos reservados &copy; Kalum V1.0.0
+            </footer>
+        </div>
+    </body>   
+</html>
