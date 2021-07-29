@@ -1,0 +1,105 @@
+/*Selector universal*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+/*Selector por etiqueta*/
+header{
+    background: #23376D;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+footer{
+    background: #23376D;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color:darkgreen;
+}
+footer a{
+    color: aliceblue;
+}
+/*Selector por ID*/
+#contenido{
+    border: 2px solid #23376D;
+    padding: 10px;
+}
+#principal{
+    margin-left: 20%;
+}
+#descripcion{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+#menu{
+    background-color:#eee;
+}
+#menu ul li{
+    display: block;
+    float: left;
+    border-right: 2px solid #CCC;
+}
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color:  #444;
+}
+#menu ul li:hover{
+    background: rgb(16, 75, 143);
+    cursor: pointer;
+}
+#menu ul li:hover a{
+    color: white;
+}
+
+#contenido table{
+    margin:auto;
+}
+
+#contenido h2{
+    text-align: center;
+    color:cornflowerblue;
+    margin: 10px;
+}
+
+#contenido form{
+    border:2px solid #444;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+#contenido form *{
+    display: inline-block;
+}
+input[type="text"], select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+input[type="submit"], button{
+    background: #7D0A42;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    text-transform:uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+/*Selector por clase*/
+.clearFix{
+    float: none;
+    clear: both;
+}
