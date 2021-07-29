@@ -39,8 +39,7 @@ footer a{
 #descripcion{
     font-style: italic;
     text-decoration: underline;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 #menu{
     background-color:#eee;
@@ -62,17 +61,14 @@ footer a{
 #menu ul li:hover a{
     color: white;
 }
-
 #contenido table{
     margin:auto;
 }
-
 #contenido h2{
     text-align: center;
     color:cornflowerblue;
     margin: 10px;
 }
-
 #contenido form{
     border:2px solid #444;
     margin-top: 15px;
@@ -88,16 +84,46 @@ input[type="text"], select{
     width: 300px;
 }
 input[type="submit"], button{
-    background: #7D0A42;
+    background: #0a1b7d;
     color: white;
-    padding: 10px;
+    padding: 5px;
     font-size: 15px;
     text-transform:uppercase;
     border: 1px solid black;
     cursor: pointer;
 }
-
-
+#contenido form table td{
+    text-align: center;
+    margin: auto;
+    font-style: italic ;
+}
+#contenido form table input {
+    text-align:left;
+    font-size: 15px;
+    font-style: italic;
+    padding: 5px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+#contenido_contacto form{
+    margin: auto;
+    margin-left:5%;
+    margin-right:5%;
+    border: 1px solid rgb(182, 179, 179);
+    display:inline-table
+}
+#contenido_contacto form h2{
+    text-align: center;
+    padding: 10px;
+}
+#contenido_contacto form table{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#contenido_contacto form table tr td input{
+    text-align: justify;
+    margin: auto;
+}
 /*Selector por clase*/
 .clearFix{
     float: none;
